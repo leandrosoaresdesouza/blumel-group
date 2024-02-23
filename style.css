@@ -425,6 +425,11 @@ p {
 .navbar-area.navbar-nine .navbar-brand {
   margin: 0;
 }
+
+.navbar-brand .logo {
+  font-size: 25px;
+}
+
 .navbar-area.navbar-nine .navbar {
   position: relative;
   padding: 0;
@@ -2024,4 +2029,17 @@ p {
 
 .logo {
   color: #fff;
+}
+
+#carousel-container {
+  width: 300px;
+  overflow: hidden;
+}
+#slides {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+.slide {
+  width: 300px;
+  flex: 0 0 auto;
 }
